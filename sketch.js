@@ -65,7 +65,7 @@ const features = [
 
 const Nfeatures = features.length * 2; // 2 hands
 const WORLEY_SPACING = 100;
-const WORLEY_HOLE = 300;
+const WORLEY_HOLE = 450;
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
@@ -101,7 +101,7 @@ function init() {
 
 function setup() {
   frameRate(60);
-  pixelDensity(1);
+  pixelDensity(2);
   noCursor();
   strokeCap(ROUND);
   textAlign(CENTER);
